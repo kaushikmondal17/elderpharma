@@ -1,0 +1,1139 @@
+@media (max-width: 1399.98px) {
+  .nav_top {
+    gap: 9px;
+  }
+    ul.navbar-nav.me-auto.mb-2.mb-lg-0{
+        gap: 12px;
+    }
+.navbar-brand .logo_img {
+    width: 97px;
+    height: auto;
+}
+.call_button i{
+   font-size: 15px;
+}
+.call_button {
+    gap: 5px;
+    padding: 7px 19px;
+    font-size: 14px;
+}
+.heading_part p {
+    font-size: 14px;
+    padding: 2px 0;
+}
+.product_card_ui{
+    width: 210px;
+    height: 407px;
+}
+.product_text h4 {
+    font-size: 19px;
+    font-weight: 500;
+}
+.product_text p {
+    font-size: 13px;
+}
+.button_to_buy {
+    width: 153px;
+    height: 27px;
+}    
+.price_tag {
+    font-size: 17px;
+    font-weight: 500;
+}
+.product_card_ui img{
+     height: 150px;
+}
+.similer_collection{
+    margin-top: 0;
+}
+.inner_banner .heading_part {
+    left: 150px;
+    top: 34%;
+}
+.heading_part h2 {
+    font-size: 32px;
+    font-weight: 400;
+}
+    .heading_part p {
+        font-size: 15px;
+        padding: 0;
+    }
+    .contact_box h4 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 20px auto;
+    }
+
+.contact_box i {
+    font-size: 40px;
+    padding: 0px 0;
+}
+.contact_box p {
+    font-size: 15px;
+    margin: 2px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media (max-width: 1199.98px) { 
+
+  .banner { 
+    height: 612px;
+    top: 85px; 
+}
+    .nav_top { gap: 10px; }
+
+ ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+        gap: 13px;
+        text-align: start;
+        padding-left: 25px;
+  }
+
+
+ li.nav-item {
+    font-size: 15px;
+ }
+    .navbar-brand .logo_img { width: 100px; }
+
+    .text_part p { font-size: 16px; }
+    .text_part p span { font-size: 32px; margin: 3px 6px; }
+    .banner h1 { font-size: 33px; width: 66%; margin: 40px 0; }
+    .banner h1 span { font-size: 44px; }
+    .text_part {         
+        left: 139px;
+        bottom: 101px; }
+    .about_left_part h2 { font-size: 40px; }
+    .about_left_part h2 b { font-size: 36px; }
+    .about_left_part p b { font-size: 40px; }
+    .about_left_part p { font-size: 13px; }
+    .right_images img:nth-child(2) { width: 200px; height: 400px; bottom: 40px; }
+    .right_images img:nth-child(1) { width: 220px; height: 264px; left: 33px; }
+    .about .box_run p { font-size: 14px; font-weight: 500; }
+
+    .stats { font-size: 24px; }
+    .top_heading_part { padding-bottom: 30px; }
+    .top_heading_part h2 { font-size: 30px; font-weight: 600; margin-left: 0; }
+    .cete_flex .box { width: 130px; height: 130px; }
+    .cete_flex { padding: 0 0px; }
+    .vertical-tab button.active { font-size: 15px; }
+    .product_card_ui {
+         width: 230px; 
+         height: 380px; }
+    .trending_product_section { padding-top: 0; padding-bottom: 30px; }
+    .product_text h4{
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .product_text p {
+    font-size: 13px;
+    font-weight: 500;
+    }
+.vertical-tab button{
+    font-size: 15px;
+    font-weight: 400;
+}
+.product_images {
+    height: 160px;
+}
+.price_tag{
+    font-size: 16px;
+ }
+.single_type_product {
+    font-size: 22px;
+}
+.single_type_product button {
+    font-size: 14px;
+}
+.box_qustion h4 {
+    font-size: 30px;
+    margin: 30px auto;
+}
+.box_qustion {
+    padding: 95px 42px;
+}
+.box_qustion button{
+    font-size: 16px;
+}
+.qustion_section{
+    padding-bottom: 0;
+}
+.exploer_section{
+     height: 395px;
+}
+.exploer_text h3{
+   font-size: 26px;
+}
+.exploer_text p{
+    font-size: 13px;
+    margin: 28px auto;
+}
+.exploer_text button{
+    padding: 8px 44px;
+    font-size: 16px;
+}
+.logo_footer p{
+   font-size: 10px;
+   padding: 8px 0;
+}
+.information_footer ul li a {
+    font-size: 12px;
+    margin: 10px 0;
+}
+.pay_img_section h5{
+    bottom: 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.pay_img {
+    bottom: -25px;
+}
+.pay_img img{
+    width: 100%;
+    height: 18px;
+ }
+.footer_newsletter input[type="email"] {
+    width: 100%;
+    padding: 7px 10px;
+}
+.footer_newsletter .form{
+    width: auto;
+}
+.footer_newsletter .form button {
+    font-size: 10px;
+}
+.search_button input{
+    width: 90px;
+}
+.search_button {
+  padding: 3px 12px;
+}
+.call_button a{
+  font-size: 14px;
+}
+.call_button{
+  padding: 7px 12px
+}
+.enquery{
+   padding: 6px 29px;
+    font-size: 15px;
+}
+.order {
+    padding: 6px 29px;
+    font-size: 15px;
+}
+.grid_box {
+  gap: 2px;
+}
+.top_heading_part button {
+    font-size: 15px;
+}
+.button_to_buy {
+    font-size: 15px;
+    font-weight: 400;
+}
+.single_type_product h4{
+    left: 36px;
+    bottom: 64px;
+    font-size: 20px;
+}
+.single_type_product button{
+    bottom: 34px;
+    left: 36px;
+    padding: 3px 19px;
+}
+.marquee-item img{
+    height: 53px;
+}
+.marquee-item{
+    padding: 10px;
+}
+.trending_product_section .product_card_ui {
+    width: 235px !important;
+}
+.top_heading_part p {
+    font-size: 14px;
+}
+.accordion-body {
+    font-size: 13px !important;
+}
+.accordion-button{
+    font-size: 16px !important;
+}
+.accordion-button::after {
+    width: 32px !important;
+    height: 32px !important;
+}
+.accordion-body strong{
+    font-size: 16px !important;
+}
+.box_qustion p {
+    font-size: 14px;
+}
+
+.testmonial_box .top_images {
+    display: block;
+}
+.testmonial_box {
+    padding: 0px 20px;
+}
+.testmonial_box p {
+    font-size: 12px;
+    margin: 9px 0;
+    height: 53px;
+    margin-top: 0;
+}
+.testmonial_box .review{
+    height: 30px;
+}
+.logo_footer img{
+    width: 101px;
+}
+.footer_social_icon {
+    gap: 9px;
+}
+.footer_social_icon i{
+    width: 32px;
+    height: 32px;
+    font-size: 16px;
+}
+.information_footer h4 {
+    font-size: 20px;
+}
+.contact_footer h4{
+    font-size: 20px;
+}
+.footer_newsletter h4{
+    font-size: 20px;
+}
+.contact_footer p i{
+    width: 26px;
+    height: 26px;
+    font-size: 10px;
+}
+.footer_newsletter p {
+    font-size: 12px;
+    margin: 7px 0 10px 0;
+}
+.contact_footer p{
+    font-size: 13px;
+    margin: 7px 0;
+}
+.bottom_footer p {
+    font-size: 13px;
+}
+.inner_banner {
+    position: relative;
+    overflow: hidden;
+    top: 15px;
+    height: 240px;
+}
+    .inner_banner {
+        top: 8px;
+        height: 240px;
+    }
+    .heading_part p {
+        font-size: 14px;
+        padding: 0;
+    }
+    .contact_box h4 {
+        font-size: 20px;
+        margin: 11px auto;
+    }
+    .contact_box i {
+        font-size: 35px
+    }
+.contact_box {
+    padding: 23px 0px;
+}
+.contact_form {
+    padding: 30px;
+}
+
+
+
+
+}
+
+@media (max-width: 991.98px) { 
+
+    .mobile_part{
+        display: flex;
+    flex-flow: row-reverse;
+    justify-content: space-between;
+    width: 60%;
+    }
+
+    .account_icon {
+    gap: 9px;
+    padding: 0px 0;
+}
+    button.navbar-toggler {
+    border: none;
+    padding: 0;
+    color: var(--color-black);
+}
+    .navbar-brand_molile{
+          display: block;
+        padding: 0 6px;
+}
+.account_icon_mobile{
+  display: block;
+}
+.logo_img{
+    width: 103px;
+    height: auto;
+    object-fit: cover;
+    padding: 6px 22px;
+}
+
+.main_top_part{
+    display: none;
+}
+.banner{
+    height: 500px;
+}
+.text_part {
+   left: 90px;
+   bottom: 70px;
+}
+.text_part p{
+    font-size: 13px;
+}
+.text_part p span {
+    font-size: 29px;
+    margin: 0 9px
+}
+.banner h1 {
+    font-size: 30px;
+    width: 98%;
+    margin: 20px 0;
+}
+.enquery {
+    padding: 4px 25px;
+    font-size: 14px;
+    }
+.order {
+ padding: 4px 25px;
+font-size: 14px;
+    }
+.about {
+  padding: 16px 0;
+}
+.about_left_part h5{
+   margin-bottom: 29px;
+    font-size: 16px;
+    width: 120px;
+}
+    .about_left_part h2 {
+        font-size: 36px;
+        margin: 0px 0px;
+    }
+    .about_left_part h2 b {
+        font-size: 35px;
+    }
+    .right_images img:nth-child(2){
+    width: 250px;
+    height: 434px;
+    border-radius: 20px;
+    bottom: 40px;
+}
+.grid_box{
+    grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 8px;
+}
+.categories {
+    padding: 36px 0;
+}
+    .cete_flex .box {
+        width: 100px;
+        height: 100px;
+    }
+    .cete_flex {
+      gap: 15px;
+    }
+.top_heading_part {
+        padding-bottom: 30px;
+    }
+.product_card_ui img{
+    height: 154px;
+}
+.vertical-tab button{
+    padding: 6px 0px;
+    font-size: 14px;
+}
+.product_card_ui {
+     width: 253px;
+     height: 360px;
+}
+.single_type_product {
+    margin: 7px auto;
+}
+.single_type_product h4 {
+        left: 19px;
+        bottom: 40px;
+        font-size: 16px;
+    }
+.single_type_product button {
+        bottom: 14px;
+        left: 15px;
+        padding: 0px 14px;
+    }
+.product_logo_section{
+    padding: 24px 0;
+ }
+.top_heading_part button {
+    font-size: 13px;
+    padding: 4px 24px;
+}   
+    .trending_product_section .product_card_ui {
+        width: 232px !important;
+    }
+
+.top_heading_part h2{
+    font-size: 22px;
+}
+.accordion-itembutton.accordion-button{
+    padding: 7px 20px !important;
+}
+ .box_qustion {
+  padding: 68px 18px;
+    }
+.box_qustion button {
+        font-size: 16px;
+        padding: 10px 33px;
+    }
+    .exploer_text {
+        width: 85%;
+    }
+    .footer_newsletter .form button{
+        padding: 4px 7px;
+    }
+
+    .heading_part h2 {
+        font-size: 30px;
+        font-weight: 400;
+    }
+   .inner_banner .heading_part {
+        left: 84px;
+        top: 45%;
+    }
+        .heading_part p {
+        font-size: 14px;
+        padding: 0;
+        font-weight: 400;
+    }
+  .contact_part {
+    padding: 43px 0;
+
+  }
+ .contact_box i {
+        font-size: 30px;
+    }
+
+    .contact_box h4 {
+        font-size: 18px;
+        margin: 8px auto;
+    }
+    .contact_box p {
+        font-size: 13px;
+        margin: 1px 0;
+    }
+
+.main_container_box h4 {
+    font-size: 23px;
+}
+.text_form {
+    margin: 6px auto;
+}
+.text_form input {
+    padding: 10px 15px;
+    height: 38px !important;
+}
+.text_form select {
+    height: 38px !important;
+    outline: none;
+}
+.text_form i {
+    padding-right: 40px;
+    font-size: 15px;
+}
+.text_form textarea {
+    height: 150px !important;
+}
+.contact_form button{
+    padding: 9px 12px;
+    font-size: 14px;
+    margin: 0 auto;
+    width: 188px;
+ }
+
+
+
+
+
+
+}
+
+@media (max-width: 767.98px) {
+.banner {
+        height: 376px;
+    }
+    .text_part {
+        left: 55px;
+        bottom: 38px;
+    }
+.text_part p {
+        font-size: 14px;
+    }
+.text_part p span {
+        font-size: 20px;
+        margin: 0 9px;
+    }
+        .banner h1 {
+        font-size: 21px;
+        width: 100%;
+        margin: 20px 0;
+        margin-top: 0;
+    }
+        .banner h1 span {
+        font-size: 40px;
+        }
+        .about_left_part h5 {
+        margin-bottom: 15px;
+        font-size: 12px;
+        width: 105px;
+    }
+    .about_left_part h2 b {
+        font-size: 32px;
+    }
+    .about_left_part p {
+        font-size: 12px;
+    }
+        .about_left_part p b {
+        font-size: 35px;
+        height: 40px;
+    }
+.right_images img:nth-child(1) {
+        width: 186px;
+        height: auto;
+        left: 33px;
+    }
+.right_images img:nth-child(3) {
+        width: 200px;
+        height: auto;
+        left: 33px;
+    }
+.right_images .button:nth-child(2){
+    left: 0;
+}
+.about .grid_box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 8px;
+}
+.about .box_run{
+    width: 150px;
+}
+    .about .box_run p {
+        font-size: 12px;
+    }
+    .cete_flex{
+        justify-content: space-evenly;
+        gap: 13px;
+        flex-wrap: wrap;
+    }
+    .cete_flex .box {
+        width: 125px;
+        height: 125px;
+    }
+    .product_card_ui {
+        width: 164px;
+        height: 306px;
+    }
+        .product_card_ui img {
+        height: 120px;
+        width: 120px;
+        object-fit: cover;
+    }
+        .product_images {
+        height: 128px;
+    }
+        .product_text h4 {
+            font-size: 16px;
+   }
+   .price_tag {
+        font-size: 14px;
+        margin: 3px 0;
+    }
+    .button_to_buy {
+    width: 100%;
+    height: 28px;
+    }
+ .product_text{
+    padding: 0;
+ }
+  .vertical-tab {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+.tab {
+    display: flex;
+    flex-wrap: wrap;
+}
+.right_product{
+    width: 100%;
+}
+.tabcontent{
+    padding: 0;
+}
+.vertical-tab button {
+        padding: 0px 0px;
+        font-size: 14px;
+        width: 26%;
+        gap: 10px;
+        font-size: 12px;
+    }
+    .vertical-tab button.active {
+        font-size: 12px;
+        padding: 6px 5px;
+    }
+.product_card_ui img{
+        height: 80%;
+        width: 80%;
+        object-fit: cover;
+        margin: 0 auto;
+}
+.product_card_ui {
+    padding: 26px 15px;
+}
+.single_type_product img{
+    height: 267px;
+    width: 100%;
+    object-fit: cover;
+}
+.single_type_product h4 {
+        left: 32px;
+        bottom: 54px;
+        font-size: 20px;
+    }
+    .single_type_product button {
+        bottom: 21px;
+        left: 32px;
+        padding: 3px 23px;
+    }
+.top_heading_part {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+}
+.top_heading_part p{
+    margin-left: 0;
+}
+.box_qustion h4 {
+        font-size: 30px;
+        margin: 3px auto;
+    }
+    .box_qustion {
+        padding: 34px 30px;
+    }
+.box_qustion button {
+        font-size: 15px;
+        padding: 6px 30px;
+    }
+    .accordion-item{
+        margin: 7px auto;
+    }
+.accordion-button {
+        font-size: 14px !important;
+        padding: 7px 20px !important;
+    }
+    .accordion-body {
+        font-size: 13px !important;
+        padding: 10px 12px !important;
+    }
+    .tesimonial_section {
+    padding: 14px 0;
+    }
+.testmonial_box .top_image{
+    width: 43px;
+    height: 43px;
+}
+.exploer_section{
+    padding: 25px 0;
+}
+.exploer_section{
+   height: 360px;
+}
+.exploer_text {
+        width: 90%;
+    }
+.logo_footer {
+    padding: 10px 1px;
+}
+.information_footer{
+  padding: 10px 1px;
+}
+.contact_footer{
+  padding: 10px 1px;
+}
+.footer_newsletter{
+  padding: 10px 1px;
+}
+    .information_footer h4 {
+        font-size: 19px;
+        font-weight: 400;
+    }
+.information_footer h4::after {
+      height: 1px;
+     }
+.footer_newsletter h4{
+    font-size: 19px;
+        font-weight: 400;
+}
+.footer_newsletter h4::after {
+      height: 1px;
+     }
+.contact_footer h4{
+    font-size: 19px;
+        font-weight: 400;
+}
+.contact_footer h4::after {
+      height: 1px;
+     }
+.footer_newsletter input[type="email"]{
+    font-size: 10px;
+     padding: 6px 8px;
+}
+.pay_img {
+        bottom: -31px;
+    }
+    .pay_img_section h5 {
+        bottom: 8px;
+        font-size: 10px;
+    }
+.contact_footer p {
+        font-size: 12px;
+        margin: 4px 0;
+    }
+.information_footer ul li a {
+        font-size: 12px;
+        margin: 8px 0;
+    }
+    .footer_newsletter .form {
+        width: 164px;
+    }
+.footer_newsletter .form button {
+        padding: 3px 6px;
+    }
+.footer_newsletter {
+     margin: 6px 0 3px 0;
+}
+    .bottom_footer p {
+        font-size: 12px;
+    }
+.footer {
+  padding: 43px 0 7px 0;
+}
+
+    .inner_banner {
+        top: 8px;
+        height: 168px;
+    }
+
+    .inner_banner .heading_part {
+        left: 84px;
+        top: 35%;
+    }
+    .heading_part h2 {
+        font-size: 24px;
+        font-weight: 400;
+    }
+        .heading_part p {
+        font-size: 12px;
+    }
+.contact_box {
+        padding: 19px 0px;
+        margin: 10px auto;
+    }
+.contact_box h4 {
+        font-size: 20px;
+        margin: 8px auto;
+    }
+.text_form {
+        margin: 8px auto;
+    }
+.text_form input {
+        padding: 13px 15px;
+        height: 44px !important;
+        font-size: 13px;
+    }
+.text_form select{
+     padding: 13px 15px;
+        height: 44px !important;
+        font-size: 13px;
+}
+.text_form textarea {
+        height: 100px !important;
+         font-size: 13px;
+    }
+    .contact_form button {
+        padding: 8px 30px;
+        font-size: 14px;
+        margin: 17px auto;
+        width: auto;
+    }
+
+
+
+
+}
+
+@media (max-width: 575.98px) { 
+        .mobile_part {
+        width: 59%;
+    }
+    .navbar-brand .logo_img {
+        width: 80px;
+    }
+    .banner {
+        height: 100%;
+        top: 0;
+        margin-top: 9px;
+    }
+    .banner h1 {
+        font-size: 17px;
+        margin: 5px 0;
+    }
+    .banner h1 span {
+        font-size: 24px;
+    }
+    .banner swiper-slide img {
+    width: 100%;
+    height: 200px;
+    }
+    .swiper-button-next svg, .swiper-button-prev svg{
+        display: none !important;
+    }
+    .enquery {
+        padding: 4px 14px;
+        font-size: 12px;
+    }
+        .order {
+        padding: 4px 25px;
+        font-size: 12px;
+    }
+.about_left_part h5 {
+        font-size: 12px;
+        width: 81px;
+        padding: 5px 0px;
+    }
+.about_left_part h2 {
+        font-size: 25px;
+        margin: 0px 0px;
+    }
+    .about_left_part h2 b {
+        font-size: 28px;
+    }
+    .about_left_part p {
+        font-size: 12px;
+    }
+    .about_left_part p b {
+        font-size: 29px;
+        height: 20px;
+    }
+    .right_images img:nth-child(3) {
+        width: 184px;
+        height: auto;
+    }
+    .right_images img:nth-child(1) {
+        width: 143px;
+        height: auto;
+        left: 31px;
+    }
+    .about .grid_box {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+.top_heading_part h2 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+.top_heading_part button {
+        font-size: 10px;
+        padding: 3px 10px;
+    }
+.button_to_buy {
+    margin: 6px 0;
+}
+.product_text span {
+ font-size: 10px;
+}
+.single_type_product img {
+        height: 157px;
+    }
+    .trending_product_section .product_card_ui {
+        width: 211px !important;
+    }
+    .product_card_ui{
+        width: 180px;
+    }
+.all_product_flex {
+    justify-content: center;
+}
+.qustion_section {
+    padding: 25px 0;
+}
+.top_heading_part {
+        padding-bottom: 15px;
+    }
+    .box_qustion p {
+        font-size: 12px;
+        margin: 10px auto;
+    }
+     .box_qustion {
+        padding: 21px 25px;
+    }
+        .box_qustion button {
+        font-size: 14px;
+        padding: 4px 19px;
+    }
+        .exploer_text p {
+        font-size: 12px;
+        margin: 20px auto;
+        letter-spacing: 0.1px;
+       word-spacing: 0px;
+    }
+.exploer_text {
+        width: 94%;
+    }
+    .exploer_section {
+        height: 340px;
+    }
+.exploer_text h3 {
+        font-size: 20px;
+    }
+    .exploer_text button {
+        padding: 6px 30px;
+        font-size: 14px;
+    }
+.cete_flex .box {
+        width: 96px;
+        height: 96px;
+    }
+
+    .marquee-item img {
+        height: 35px;
+        padding: 9px;
+    }
+.testmonial_box .name h4 {
+    font-size: 16px;
+    padding: 5px 0px;
+}
+.testmonial_box .name h6 {
+    font-size: 13px;
+    margin: 0;
+    padding: 0px 0;
+}
+    .testmonial_box p {
+        font-size: 11px;
+        margin: 6px 0;
+        height: 51px;
+        margin-top: 0;
+    }
+    .information_footer h4 {
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+    .information_footer ul li a {
+        font-size: 14px;
+        margin: 6px 0;
+    }
+.information_footer ul li a::after {
+    width: 34px;
+    height: 1.5px;
+    bottom: -2px;
+}
+.footer h4{
+    margin-bottom: 14px;
+}
+.contact_footer p {
+  font-size: 13px;
+  margin: 4px 0;
+    }
+    .footer_newsletter p {
+        font-size: 12px;
+        margin: 7px 0 30px 0;
+        width: 50%;
+    }
+        .footer_newsletter .form {
+        width: 166px;
+        position: absolute;
+        right: 5px;
+        bottom: 40px;
+    }
+    .pay_img_section h5 {
+        bottom: 16px;
+        font-size: 14px;
+        font-family: var(--font-odd);
+        color: var(--color-white);
+        font-weight: 500;
+    }
+.pay_img img {
+        width: 100%;
+        height: 20px;
+        margin: 3px 7px 8px 0px;
+    }
+.bottom_footer {
+   margin-top: 17px;
+    padding: 5px 20px;
+}
+.heading_part h2 {
+    font-size: 24px;
+}
+.inner_banner .heading_part {
+    left: 44px;
+    top: 40%;
+}
+    .inner_banner {
+        position: relative;
+        overflow: hidden;
+        top: 6px;
+        height: 164px;
+    }
+    .heading_part p {
+        font-size: 12px;
+        padding: 0px 0;
+    }
+  .contact_part {
+        padding: 25px 25px;
+    }
+    .contact_box h4 {
+        font-size: 18px;
+        margin: 8px auto;
+    }
+    .main_container_box {
+    padding: 30px 25px !important;
+    }
+
+
+
+
+}
