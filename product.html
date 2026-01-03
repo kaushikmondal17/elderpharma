@@ -31,66 +31,309 @@
   <body>
 
     <!-- header -->
-  <header">
-        <nav class="navbar navbar-expand-lg ">
-            <div class="container-fluid">
-                <div class="mobile_part">
-                    <a class="navbar-brand" href="index.html">
-                        <img class="logo_img" src="images/Logo.png" />
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="about.html">About</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="collection.html" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Product
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="category.html">Anzen Division</a></li>
-                                    <li><a class="dropdown-item" href="category.html">Axonova Division</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="collection.html">Collection</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="shop.html">Shop</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="blog.html">Blog</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="category.html">Category</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
 
-                <div class="account_icon">
-                    <div class="top_search">
-                        <form action="#" role="search" class="search-form">
-                            <input type="submit" value="" class="search-submit">
-                            <input type="search" name="q" class="search-text" placeholder="Search..."
-                                autocomplete="off">
-                        </form>
-                    </div>
-                    <a href="contact.html"> <i class="fa-solid fa-user"></i></a>
-                    <a href="shop.html"> <i class="fa-solid fa-cart-plus"></i></a>
+<header class="header" id="header">
+  <nav class="header__navbar container-fluid">
+     
+    <div class="header__navbar-inner">
+      <a href="index.html" class="header__brand"><img src="images/Logo.png"/></a>
+      <div class="header__burger" id="burger">
+        <span class="header__burger-line"></span>
+        <span class="header__burger-line"></span>
+        <span class="header__burger-line"></span>
+      </div>
+    </div>
+    
+    <div class="header__navbar-block" id="menu">
+        <div class="header_icon mobile_part">
+        <div class="icon_headr">
+            <i class="fa-solid fa-magnifying-glass"></i>
+           <a href="shop.html"> <i class="fa-solid fa-cart-plus"></i></a>
+            <a href="contact.html"><i class="fa-solid fa-user"></i></a>
+        </div>
+    </div>
+      <ul class="header__menu">
+        <li class="header__menu-item"><a href="index.html" class="header__menu-link">Home</a></li>
+         <li class="header__menu-item"><a href="about.html" class="header__menu-link">About</a></li>
+        <li class="header__menu-item header__dropdown">
+          <span class="header__dropdown-toggle header__menu-link">
+            Our Category <i class="fa-solid fa-angle-down"></i>
+          </span>
+          <div class="header__dropdown-content">
+            <div class="header__dropdown-column">
+              <div class="header__dropdown-group">
+                <div class="header__dropdown-title">
+                 
+                  <span class="text-base font-medium">TABLETS  <i class="fa-solid fa-angle-down"></i></span>
                 </div>
+                <ul class="header__dropdown-items">
+                  <li><a href="#" class="header__dropdown-link">Amolo 5</a></li>
+                  <li><a href="#" class="header__dropdown-link">Aoxclav 625</a></li>
+                  <li><a href="#" class="header__dropdown-link">Bilater 20</a></li>
+                  <li><a href="#" class="header__dropdown-link">Cefixim 200 DT</a></li>
+                  <li><a href="#" class="header__dropdown-link">COD 200</a></li>
+                  <li><a href="#" class="header__dropdown-link">Elbugesic Plus</a></li>
+              
+                  <li><a href="#" class="header__dropdown-link">Glimider 3</a></li>
+                  <li><a href="#" class="header__dropdown-link">Lipider 40 </a></li>
+
+                  <li><a href="#" class="header__dropdown-link">Ranzonel 500 </a></li>
+                  <li><a href="#" class="header__dropdown-link">Zincodel </a></li>
+                  <li><a href="#" class="header__dropdown-link_button">See All <i class="fa-solid fa-arrow-right-long"></i> </a></li>
+                  
+                </ul>
+              </div>
+              <div class="header__dropdown-group">
+                <div class="header__dropdown-title">
+              
+                  <span class="text-base font-medium">SOFTGELS<i class="fa-solid fa-angle-down"></i></span>
+                </div>
+                <ul class="header__dropdown-items">
+                  <li><a href="#" class="header__dropdown-link">Body Grow  </a></li>
+                  <li><a href="#" class="header__dropdown-link">Breath Easy</a></li>
+                  <li><a href="#" class="header__dropdown-link">EL VIT 400</a></li>
+                  <li><a href="#" class="header__dropdown-link">Eldervit-D3 60K</a></li>
+                  <li><a href="#" class="header__dropdown-link">Eldervit-SG</a></li>
+                  <li><a href="#" class="header__dropdown-link">Eldervit-K27 SG</a></li>
+                  <li><a href="#" class="header__dropdown-link">Eldervit-Gold</a></li>
+                  <li><a href="#" class="header__dropdown-link">Eldervit-7G</a></li>
+                  <li><a href="#" class="header__dropdown-link">Eldervit-9G</a></li>
+                  <li><a href="#" class="header__dropdown-link">Eldervit-12G</a></li>
+                  <li><a href="#" class="header__dropdown-link">Eldervit-15G</a></li>
+                  <li><a href="#" class="header__dropdown-link">Vitamin A & D</a></li>
+                  <li><a href="#" class="header__dropdown-link">Super Omage 3</a></li>
+                   
+              
+                </ul>
+              </div>
+              <div class="header__dropdown-group">
+                <div class="header__dropdown-title">
+                     <span class="text-base font-medium">CAPSULES<i class="fa-solid fa-angle-down"></i></span>
+                </div>
+                <ul class="header__dropdown-items">
+                  <li><a href="#" class="header__dropdown-link">Amyclox LB</a></li>
+                  <li><a href="#" class="header__dropdown-link">Cpl-250</a></li>
+                  <li><a href="#" class="header__dropdown-link">Lipider AV 20/75</a></li>
+                  <li><a href="#" class="header__dropdown-link">Moxel 500</a></li>
+                  <li><a href="#" class="header__dropdown-link">Racedotil 100</a></li>
+                  <li><a href="#" class="header__dropdown-link">Omec D</a></li>
+                  <li><a href="#" class="header__dropdown-link">Elcefol-Z</a></li>
+                  <li><a href="#" class="header__dropdown-link">Rosuder Gold-20</a></li>
+                  <li><a href="#" class="header__dropdown-link">Rosuder Gold-10</a></li>
+                  <li><a href="#" class="header__dropdown-link">Rosuder A 10/75</a></li>
+                            <li><a href="#" class="header__dropdown-link_button">See All <i class="fa-solid fa-arrow-right-long"></i> </a></li>
+                </ul>
+              </div>
+              <div class="header__dropdown-group">
+                <div class="header__dropdown-title">
+                     <span class="text-base font-medium">COUGH SYRUP<i class="fa-solid fa-angle-down"></i></span>
+                </div>
+                <ul class="header__dropdown-items">
+                  <li><a href="#" class="header__dropdown-link">Ascotor</a></li>
+                  <li><a href="#" class="header__dropdown-link">Ascotor-ELX</a></li>
+                  <li><a href="#" class="header__dropdown-link">Ascotor-AP</a></li>
+                  <li><a href="#" class="header__dropdown-link">Ascotor-DX</a></li>
+                  <li><a href="#" class="header__dropdown-link">Cofentol-LS</a></li>
+                  <li><a href="#" class="header__dropdown-link">Elbidryl</a></li>
+                  <li><a href="#" class="header__dropdown-link">Levis</a></li>
+                  <li><a href="#" class="header__dropdown-link">Elbidryl</a></li>
+                  <li><a href="#" class="header__dropdown-link">Ascotor Mint</a></li>
+                  <li><a href="#" class="header__dropdown-link">Cin-60ml</a></li>
+                 <li><a href="#" class="header__dropdown-link_button">See All <i class="fa-solid fa-arrow-right-long"></i> </a></li>
+                </ul>
+              </div>
+                <div class="header__dropdown-group">
+                <div class="header__dropdown-title">
+                     <span class="text-base font-medium">LIQUIDS<i class="fa-solid fa-angle-down"></i></span>
+                </div>
+                <ul class="header__dropdown-items">
+                  <li><a href="#" class="header__dropdown-link">Alkatral</a></li>
+                  <li><a href="#" class="header__dropdown-link">AM PM</a></li>
+                  <li><a href="#" class="header__dropdown-link">Elbugesic Plus</a></li>
+                  <li><a href="#" class="header__dropdown-link">Nil-Worm-Plus</a></li>
+                  <li><a href="#" class="header__dropdown-link">Az-200 XL</a></li>
+                  <li><a href="#" class="header__dropdown-link">Elbugesic Plus</a></li>
+                  <li><a href="#" class="header__dropdown-link">Elcid MPS</a></li>
+                  <li><a href="#" class="header__dropdown-link">Nil-worm Plus</a></li>
+                  <li><a href="#" class="header__dropdown-link">AD Vitamin Oil</a></li>
+                      <li><a href="#" class="header__dropdown-link_button">See All <i class="fa-solid fa-arrow-right-long"></i> </a></li>
+                </ul>
+              </div>
+                <div class="header__dropdown-group">
+                <div class="header__dropdown-title">
+                     <span class="text-base font-medium">Ointmnts/OTC<i class="fa-solid fa-angle-down"></i></span>
+                </div>
+                <ul class="header__dropdown-items">
+                  <li><a href="#" class="header__dropdown-link">Clotider</a></li>
+                  <li><a href="#" class="header__dropdown-link">Elcipro NF</a></li>
+                  <li><a href="#" class="header__dropdown-link">Mupivact</a></li>
+                  <li><a href="#" class="header__dropdown-link">Moxel 500</a></li>
+                  <li><a href="#" class="header__dropdown-link">Povider OZ</a></li>
+                  <li><a href="#" class="header__dropdown-link">Lulider Lotion</a></li>
+                  <li><a href="#" class="header__dropdown-link">Vovo Gel</a></li>
+                  <li><a href="#" class="header__dropdown-link_button">See All <i class="fa-solid fa-arrow-right-long"></i> </a></li>
+                </ul>
+              </div>
+                <div class="header__dropdown-group">
+                <div class="header__dropdown-title">
+                     <span class="text-base font-medium">Dry Injections<i class="fa-solid fa-angle-down"></i></span>
+                </div>
+                <ul class="header__dropdown-items">
+                  <li><a href="#" class="header__dropdown-link">Amicacin</a></li>
+                  <li><a href="#" class="header__dropdown-link">Esmoder 40</a></li>
+                  <li><a href="#" class="header__dropdown-link">Formic-SB</a></li>
+                  <li><a href="#" class="header__dropdown-link">Formic 1gm</a></li>
+                  <li><a href="#" class="header__dropdown-link">Formic 2gm</a></li>
+                  <li><a href="#" class="header__dropdown-link">Meroman-500 mg</a></li>
+                  <li><a href="#" class="header__dropdown-link">Panta 40</a></li>
+                  <li><a href="#" class="header__dropdown-link">H-Cort</a></li>
+                  <li><a href="#" class="header__dropdown-link">Meronam-1 gm</a></li>
+                  <li><a href="#" class="header__dropdown-link">Pipetazo </a></li>
+                  <li><a href="#" class="header__dropdown-link">Gentader</a></li>
+                  <li><a href="#" class="header__dropdown-link">Amoxclav 1.2G</a></li>
+                           
+                </ul>
+              </div>
+                <div class="header__dropdown-group">
+                <div class="header__dropdown-title">
+                     <span class="text-base font-medium">POWDER<i class="fa-solid fa-angle-down"></i></span>
+                </div>
+                <ul class="header__dropdown-items">
+                  <li><a href="#" class="header__dropdown-link">El - Biotic</a></li>
+                  <li><a href="#" class="header__dropdown-link">Kamyaab Churna</a></li>
+                  <li><a href="#" class="header__dropdown-link">Electrolyte</a></li>
+                  <li><a href="#" class="header__dropdown-link">Electrolyte</a></li>
+                  <li><a href="#" class="header__dropdown-link">Protagal Protein Powder</a></li>
+                  
+                </ul>
+              </div>
+                <div class="header__dropdown-group">
+                <div class="header__dropdown-title">
+                     <span class="text-base font-medium">AMPOULES<i class="fa-solid fa-angle-down"></i></span>
+                </div>
+                <ul class="header__dropdown-items">
+                  <li><a href="#" class="header__dropdown-link"> Calcider</a></li>
+                  <li><a href="#" class="header__dropdown-link">Deriphil</a></li>
+                  <li><a href="#" class="header__dropdown-link">Deca Elbolin 25</a></li>
+                  <li><a href="#" class="header__dropdown-link">Dicynil</a></li>
+                  <li><a href="#" class="header__dropdown-link">Eldervit B 12</a></li>
+                  <li><a href="#" class="header__dropdown-link">M.V.I</a></li>
+                  <li><a href="#" class="header__dropdown-link">Vovo</a></li>
+                  <li><a href="#" class="header__dropdown-link">Progeston-250</a></li>
+                  <li><a href="#" class="header__dropdown-link">Progeston-500</a></li>
+                          <li><a href="#" class="header__dropdown-link_button">See All <i class="fa-solid fa-arrow-right-long"></i> </a></li>
+                </ul>
+              </div>
+                <div class="header__dropdown-group">
+                <div class="header__dropdown-title">
+                     <span class="text-base font-medium">EYE/EAR/NASAL DROPS<i class="fa-solid fa-angle-down"></i></span>
+                </div>
+                <ul class="header__dropdown-items">
+          
+                  <li><a href="#" class="header__dropdown-link">Clynbiotic NF</a></li>
+                  <li><a href="#" class="header__dropdown-link">EYE Refresh Drops</a></li>
+                  <li><a href="#" class="header__dropdown-link">Otrivel NAsal Spray</a></li>
+                  <li><a href="#" class="header__dropdown-link">Otrivel Paediatrc Nasal Spray</a></li>
+                  <li><a href="#" class="header__dropdown-link">Saline Nasal Drop</a></li>
+                 
+                </ul>
+              </div>
+                <div class="header__dropdown-group">
+                <div class="header__dropdown-title">
+                     <span class="text-base font-medium">DRY SYRUPS<i class="fa-solid fa-angle-down"></i></span>
+                </div>
+                <ul class="header__dropdown-items">
+                  <li><a href="#" class="header__dropdown-link">Amonxclav-DDS</a></li>
+                  <li><a href="#" class="header__dropdown-link">Amoxclav-Duo</a></li>
+                  <li><a href="#" class="header__dropdown-link">Cefuxim</a></li>
+                  <li><a href="#" class="header__dropdown-link">Cod CV</a></li>
+                  <li><a href="#" class="header__dropdown-link">Cod-50</a></li>
+                  <li><a href="#" class="header__dropdown-link">Cod-100</a></li>
+                  <li><a href="#" class="header__dropdown-link">Formic-O</a></li>
+                  <li><a href="#" class="header__dropdown-link">Formic-XL</a></li>
+                  <li><a href="#" class="header__dropdown-link">Formic-100</a></li>
+                          
+                </ul>
+              </div>
+               <div class="header__dropdown-group">
+                <div class="header__dropdown-title">
+                     <span class="text-base font-medium">TONICS<i class="fa-solid fa-angle-down"></i></span>
+                </div>
+                <ul class="header__dropdown-items">
+                  <li><a href="#" class="header__dropdown-link">Ashoka Cordial</a></li>
+                  <li><a href="#" class="header__dropdown-link">Eldervit ABZ</a></li>
+                  <li><a href="#" class="header__dropdown-link">ELdactin Plus</a></li>
+                  <li><a href="#" class="header__dropdown-link">Eldervit Red</a></li>
+                  <li><a href="#" class="header__dropdown-link">Cod-50</a></li>
+                  <li><a href="#" class="header__dropdown-link">Cod-100</a></li>
+                  <li><a href="#" class="header__dropdown-link">Formic-O</a></li>
+                  <li><a href="#" class="header__dropdown-link">Formic-XL</a></li>
+                  <li><a href="#" class="header__dropdown-link">Formic-100</a></li>
+                           <li><a href="#" class="header__dropdown-link_button">See All <i class="fa-solid fa-arrow-right-long"></i> </a></li>
+                </ul>
+              </div>
+              
+
+
             </div>
-        </nav>
-        </header>
+          </div>
+        </li>
+        <li class="header__menu-item header__dropdown">
+          <span class="header__dropdown-toggle header__menu-link">
+            Division <i class="fa-solid fa-angle-down"></i>
+          </span>
+          <div class="header__dropdown-content">
+            <div class="header__dropdown-column_division">
+              <div class="header__dropdown-group">
+                
+                <div class="header__dropdown-block">
+                  <span class="header__dropdown-icon"><i class="bx bx-video"></i></span>
+                  <div class="header__dropdown-inner">
+                    <a href="" class="text-base font-medium"> Anzen Division</a>
+                    <p class="text-base font-normal">
+                      Learn video tutorial with our professional instructors.
+                    </p>
+                  </div>
+                   <div class="division_img">
+                    <img src="images/pro4.webp"/>
+                  </div>
+                </div>
+              </div>
+                <div class="header__dropdown-group">
+                
+                <div class="header__dropdown-block">
+                  <span class="header__dropdown-icon"><i class="bx bx-video"></i></span>
+                  <div class="header__dropdown-inner">
+                    <a href="#" class="text-base font-medium"> Axonova Division</a>
+                    <p class="text-base font-normal">
+                      Learn video tutorial with our professional instructors.
+                    </p>
+                  </div>
+                  <div class="division_img">
+                    <img src="images/pro5.webp"/>
+                  </div>
+                </div>
+              </div>
+             
+            </div>
+          </div>
+        </li>
+        <li class="header__menu-item"><a href="collection.html" class="header__menu-link">Collection</a></li>
+        <li class="header__menu-item"><a href="blog.html" class="header__menu-link">Blog</a></li>
+        <li class="header__menu-item"><a href="category.html" class="header__menu-link">Shop</a></li>
+       
+      </ul>
+    </div>
+    
+   <div class="header_icon ">
+        <div class="icon_headr">
+            <i class="fa-solid fa-magnifying-glass"></i>
+           <a href="shop.html"> <i class="fa-solid fa-cart-plus"></i></a>
+            <a href="contact.html"><i class="fa-solid fa-user"></i></a>
+        </div>
+    </div>
+  </nav>
+</header>
 
     <!-- product_part -->
     <div class="product_card_page animate-on-scroll">
@@ -502,6 +745,48 @@
         }
     </script>
 
+
+    <!-- new header-->
+    <script>
+const burger = document.getElementById("burger");
+const menu = document.getElementById("menu");
+const dropdowns = document.querySelectorAll(".header__dropdown");
+
+/* Burger menu */
+burger.addEventListener("click", () => {
+  burger.classList.toggle("is-active");
+  menu.classList.toggle("is-active");
+});
+
+/* Dropdown click */
+dropdowns.forEach(dropdown => {
+  const toggle = dropdown.querySelector(".header__dropdown-toggle");
+
+  toggle.addEventListener("click", (e) => {
+    e.stopPropagation();
+
+    // Close others
+    dropdowns.forEach(d => {
+      if (d !== dropdown) d.classList.remove("dropdown-show");
+    });
+
+    dropdown.classList.toggle("dropdown-show");
+  });
+});
+
+/* Click outside close */
+document.addEventListener("click", () => {
+  dropdowns.forEach(d => d.classList.remove("dropdown-show"));
+});
+
+/* Resize reset */
+window.addEventListener("resize", () => {
+  if (window.innerWidth > 992) {
+    burger.classList.remove("is-active");
+    menu.classList.remove("is-active");
+  }
+});
+   </script>
 
 </body>
 

@@ -72,8 +72,12 @@
     font-size: 15px;
     margin: 2px 0;
 }
-
-
+.box_qustion button{
+    font-size: 16px;
+}
+.box_qustion{
+    padding: 78px 75px;
+}
 
 
 
@@ -198,7 +202,7 @@
     font-weight: 400;
 }
 .pay_img {
-    bottom: -25px;
+    bottom: -10px;
 }
 .pay_img img{
     width: 100%;
@@ -362,6 +366,29 @@
     padding: 30px;
 }
 
+.header__menu-link{
+    padding: 0px 6px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.box_about p {
+    font-size: 13px;
+}
+.box_about {
+    padding: 11px 15px;
+}
+.why_box p{
+    font-weight: 300;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -369,12 +396,19 @@
 
 @media (max-width: 991.98px) { 
 
-    .mobile_part{
-        display: flex;
-    flex-flow: row-reverse;
+     .header_icon{
+        display: none;
+     }
+     .mobile_part{
+display: block;
+}
+.header__navbar-inner{
+    width: 100%;
     justify-content: space-between;
-    width: 60%;
-    }
+}
+.header__navbar-block{
+    width: 100%;
+}
 
     .account_icon {
     gap: 9px;
@@ -580,6 +614,30 @@ font-size: 14px;
     margin: 0 auto;
     width: 188px;
  }
+    .right_images img:nth-child(1) {
+        width: 219px;
+        height: 252px;
+        left: 50px;
+    }
+
+ .right_images img:nth-child(3) {
+        width: 219px;
+        height: 252px;
+        left: 50px;
+    }
+section#counter-stats{
+    padding: 0;
+}
+.box_about{
+    margin: 10px auto;
+}
+.why_section {
+    padding: 30px 0;
+}
+
+.accordion-body {
+        font-size: 11px !important;
+    }
 
 
 
@@ -589,6 +647,9 @@ font-size: 14px;
 }
 
 @media (max-width: 767.98px) {
+    .inner_banner{
+        margin-top: 60px;
+    }
 .banner {
         height: 376px;
     }
@@ -821,12 +882,18 @@ font-size: 14px;
     font-size: 10px;
      padding: 6px 8px;
 }
-.pay_img {
-        bottom: -31px;
+.pay_img_section{
+        position: relative;
+}
+    .pay_img {
+        bottom: -24px;
+        right: -1px;
     }
     .pay_img_section h5 {
-        bottom: 8px;
+        bottom: 7px;
         font-size: 10px;
+        position: absolute;
+        right: 63px;
     }
 .contact_footer p {
         font-size: 12px;
@@ -899,34 +966,54 @@ font-size: 14px;
         margin: 17px auto;
         width: auto;
     }
-
-
-
+    .about_left_part h2{
+        font-size: 30px;
+    }
+    .about_left_part h2 b {
+        font-size: 28px;
+    }
+.why_box{
+    margin: 5px auto;
+}
 
 }
 
 @media (max-width: 575.98px) { 
-        .mobile_part {
-        width: 59%;
+   .swiper-button-next svg, .swiper-button-prev svg{
+    display: none !important;
+   }
+   .text_part p {
+        font-size: 18px;
+        font-family: var(--font-heading);
     }
+
     .navbar-brand .logo_img {
         width: 80px;
     }
     .banner {
         height: 100%;
         top: 0;
-        margin-top: 9px;
+        margin-top: 80px;
     }
     .banner h1 {
         font-size: 17px;
         margin: 5px 0;
+        font-weight: 300;
+        font-family: var(--font-odd);
+    }
+    .banner_button {
+        margin: 20px 0;
     }
     .banner h1 span {
         font-size: 24px;
+        font-family: var(--font-heading);
+    }
+    .text_part {
+    bottom: 48px;
     }
     .banner swiper-slide img {
     width: 100%;
-    height: 200px;
+    height: 300px;
     }
     .swiper-button-next svg, .swiper-button-prev svg{
         display: none !important;
@@ -1098,7 +1185,7 @@ font-size: 14px;
     }
 .pay_img img {
         width: 100%;
-        height: 20px;
+        height: 16px;
         margin: 3px 7px 8px 0px;
     }
 .bottom_footer {
@@ -1132,8 +1219,28 @@ font-size: 14px;
     .main_container_box {
     padding: 30px 25px !important;
     }
+   .product_shoping_part .shop_img{
+        height: 148px;
+    }
+.product_shoping_part img{
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+}
+.product_shoping_part {
+height: 192px;
+}
+.blog_section .blog_img{
+height: 170px;
+}
 
-
+.pay_img_section {
+    position: relative;
+    top: 18px;
+}
+.pay_img {
+        bottom: -12px;
+    }
 
 
 }
