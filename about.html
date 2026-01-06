@@ -947,7 +947,6 @@
     </script>
 
 
-
       <!-- testmonial script -->
     <script>
         const swiperEl = document.querySelector('.mySwipertestmonial');
@@ -987,20 +986,18 @@ const burger = document.getElementById("burger");
 const menu = document.getElementById("menu");
 const dropdowns = document.querySelectorAll(".header__dropdown");
 
-/* Burger menu */
 burger.addEventListener("click", () => {
   burger.classList.toggle("is-active");
   menu.classList.toggle("is-active");
 });
 
-/* Dropdown click */
+
 dropdowns.forEach(dropdown => {
   const toggle = dropdown.querySelector(".header__dropdown-toggle");
 
   toggle.addEventListener("click", (e) => {
     e.stopPropagation();
 
-    // Close others
     dropdowns.forEach(d => {
       if (d !== dropdown) d.classList.remove("dropdown-show");
     });
@@ -1008,13 +1005,9 @@ dropdowns.forEach(dropdown => {
     dropdown.classList.toggle("dropdown-show");
   });
 });
-
-/* Click outside close */
 document.addEventListener("click", () => {
   dropdowns.forEach(d => d.classList.remove("dropdown-show"));
 });
-
-/* Resize reset */
 window.addEventListener("resize", () => {
   if (window.innerWidth > 992) {
     burger.classList.remove("is-active");
@@ -1022,6 +1015,27 @@ window.addEventListener("resize", () => {
   }
 });
    </script>
+
+
+
+
+<!-- menu_under_scriprt -->
+
+<script>
+  document.querySelectorAll('.header__dropdown-title').forEach(title => {
+    title.addEventListener('click', (e) => {
+      e.stopPropagation(); // prevent bubbling
+      const parent = title.closest('.header__dropdown-group');
+      parent.classList.toggle('active');
+    });
+  });
+
+  document.querySelectorAll('.header__dropdown-items a').forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.stopPropagation();
+    });
+  });
+</script>
 
 </body>
 </html>

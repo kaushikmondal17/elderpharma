@@ -714,6 +714,24 @@ window.addEventListener("resize", () => {
    </script>
 
 
+<!-- menu_under_scriprt -->
+
+<script>
+  document.querySelectorAll('.header__dropdown-title').forEach(title => {
+    title.addEventListener('click', (e) => {
+      e.stopPropagation(); // prevent bubbling
+      const parent = title.closest('.header__dropdown-group');
+      parent.classList.toggle('active');
+    });
+  });
+
+  // Prevent menu item clicks from closing dropdown
+  document.querySelectorAll('.header__dropdown-items a').forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.stopPropagation();
+    });
+  });
+</script>
 
     </body>
 

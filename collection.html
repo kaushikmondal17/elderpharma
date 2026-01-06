@@ -2354,14 +2354,13 @@
                         const el = entry.target;
                         el.classList.add('in-view');
 
-                        // stagger children if container has .stagger
                         if (el.classList.contains('stagger')) {
                             const items = el.querySelectorAll('.stagger-item');
                             items.forEach((it, i) => {
                                 it.style.transitionDelay = (i * 90) + 'ms';
                             });
                         }
-                        // if element contains many direct children, add small stagger
+                        
                         const autoStagger = el.querySelectorAll(':scope > *');
                         if (autoStagger.length > 4 && !el.classList.contains('stagger')) {
                             autoStagger.forEach((c, i) => c.style.transitionDelay = (i * 60) + 'ms');
@@ -2376,7 +2375,6 @@
 
 <!-- product_collection -->
 
-
  <script>
         const swiperPl = document.querySelector('.mySwipercollection');
         if (swiperPl) {
@@ -2385,14 +2383,15 @@
                 slidesPerView: 1,
                 spaceBetween: 10,
                 loop: true,
-                speed: 100,
+                speed: 1000,
                 autoplay: {
-                    delay: 1000,
+                    delay: 10000,
                     disableOnInteraction: false,
                     reverseDirection: false
                 },
                 pagination: { clickable: false },
                 breakpoints: {
+                   390: {slidesPerView: 1},
                     410: { slidesPerView: 2 },
                     640: { slidesPerView: 3 },
                     768: { slidesPerView: 3 },
@@ -2416,9 +2415,9 @@
                 slidesPerView: 1,
                 spaceBetween: 10,
                 loop: true,
-                speed: 100,
+                speed: 1000,
                 autoplay: {
-                    delay: 1000,
+                    delay: 10000,
                     disableOnInteraction: false,
                     reverseDirection: false
                 },
@@ -2446,20 +2445,18 @@ const burger = document.getElementById("burger");
 const menu = document.getElementById("menu");
 const dropdowns = document.querySelectorAll(".header__dropdown");
 
-/* Burger menu */
 burger.addEventListener("click", () => {
   burger.classList.toggle("is-active");
   menu.classList.toggle("is-active");
 });
 
-/* Dropdown click */
+
 dropdowns.forEach(dropdown => {
   const toggle = dropdown.querySelector(".header__dropdown-toggle");
 
   toggle.addEventListener("click", (e) => {
     e.stopPropagation();
 
-    // Close others
     dropdowns.forEach(d => {
       if (d !== dropdown) d.classList.remove("dropdown-show");
     });
@@ -2468,12 +2465,10 @@ dropdowns.forEach(dropdown => {
   });
 });
 
-/* Click outside close */
 document.addEventListener("click", () => {
   dropdowns.forEach(d => d.classList.remove("dropdown-show"));
 });
 
-/* Resize reset */
 window.addEventListener("resize", () => {
   if (window.innerWidth > 992) {
     burger.classList.remove("is-active");
@@ -2481,6 +2476,26 @@ window.addEventListener("resize", () => {
   }
 });
    </script>
+
+
+<!-- menu_under_scriprt -->
+
+<script>
+  document.querySelectorAll('.header__dropdown-title').forEach(title => {
+    title.addEventListener('click', (e) => {
+      e.stopPropagation(); // prevent bubbling
+      const parent = title.closest('.header__dropdown-group');
+      parent.classList.toggle('active');
+    });
+  });
+
+  // Prevent menu item clicks from closing dropdown
+  document.querySelectorAll('.header__dropdown-items a').forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.stopPropagation();
+    });
+  });
+</script>
 
 </body>
 
