@@ -468,10 +468,10 @@
         font-size: 20px;
     }
 
-    .contact_footer p i {
-        width: 26px;
-        height: 26px;
-        font-size: 10px;
+       .contact_footer p i {
+        width: 31px;
+        height: 31px;
+        font-size: 14px;
     }
 
     .footer_newsletter p {
@@ -1376,6 +1376,7 @@
 
     .button_to_buy {
         margin: 6px 0;
+        padding: 6px 15px;
     }
 
     .product_text span {
@@ -1389,11 +1390,16 @@
     .trending_product_section .product_card_ui {
         width: 211px !important;
     }
-
+.similer_box .product_card_ui{
+    width: 100%;
+}
     .product_card_ui {
-        width: 180px;
+        width: 48%;
     }
-
+.now_off {
+    top: 9px;
+    right: 7px;
+}
 
     .all_product_flex {
         justify-content: center;
@@ -1490,10 +1496,15 @@
     }
 
     .information_footer ul li a {
-        font-size: 14px;
-        margin: 6px 0;
+        font-size: 15px;
+        margin: 10px 0;
     }
 
+    .logo_footer p {
+        font-size: 14px;
+        padding: 8px 0;
+        width: 100%;
+    }
     .information_footer ul li a::after {
         width: 34px;
         height: 1.5px;
@@ -1505,25 +1516,28 @@
     }
 
     .contact_footer p {
-        font-size: 13px;
+        font-size: 15px;
         margin: 4px 0;
+        font-weight: 500;
     }
 
     .footer_newsletter p {
-        font-size: 12px;
+      font-size: 13px;
         margin: 7px 0 30px 0;
-        width: 50%;
+        width: 56%;
+        line-height: 13px;
+        font-weight: 400;
     }
 
-    .footer_newsletter .form {
-        width: 166px;
+        .footer_newsletter .form {
+        width: 165px;
         position: absolute;
-        right: 5px;
-        bottom: 40px;
+        right: 7px;
+        bottom: 74px;
     }
 
     .pay_img_section h5 {
-        bottom: 16px;
+        bottom: 36px;
         font-size: 14px;
         font-family: var(--font-odd);
         color: var(--color-white);
@@ -1599,7 +1613,8 @@
     }
 
     .pay_img {
-        bottom: -12px;
+        bottom: 3px;
+        right: 3px;
     }
 .blox_box{
     background-color: var(--color-white);
@@ -1613,11 +1628,30 @@
 }
 .product_shoping_part .shop_button {
     padding: 3px 8px;
-    /* background-color: var(--color-primary); */
 }
-
-
-
+.text_back{
+    padding: 10px;
+}
+.text_back h4 {
+        font-size: 15px;
+        font-weight: 400;
+        padding: 0;
+        margin: 0;
+        margin-top: 4px;
+}
+.text_back p{
+    font-size: 10px;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+}
+    .tesimonial_section {
+        padding: 30px 0;
+    }
+    .bottom_footer p {
+        font-size: 15px;
+    }
 
 
 

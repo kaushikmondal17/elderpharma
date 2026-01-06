@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 html {
   scroll-behavior: smooth;
@@ -13,8 +14,8 @@ body {
 
 .wp_icon {
   position: fixed;
-  width: 48px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   right: 25px;
   bottom: 25px;
   z-index: 99999999;
@@ -24,6 +25,8 @@ body {
   align-items: center;
   cursor: pointer;
   overflow: hidden;
+  background-color: #25d366;
+  padding: 11px;
 }
 
 button {
@@ -33,6 +36,7 @@ button {
 :root {
   --font-heading: "Playfair Display", serif;
   --font-body: "Roboto", sans-serif;
+  --font-paragraph: "Jost", sans-serif;
   --font-odd: "Outfit";
   --color-dark: #222;
   --color-black: #000;
@@ -57,7 +61,7 @@ h4 {
 }
 
 p {
-  font-family: var(--font-body);
+  font-family: var(--font-paragraph);
 }
 
 a {
@@ -1484,12 +1488,13 @@ section#counter-stats {
   font-size: 12px;
   font-weight: 400;
   color: var(--color-primary);
+  font-family: var(--font-paragraph);
 }
 
 .product_text h4 {
   font-size: 22px;
   font-weight: 400;
-  font-family: var(--font-odd);
+  font-family: var(--font-paragraph);
   color: var(--color-main);
   margin: 10px 0;
   overflow: hidden;
@@ -1505,6 +1510,7 @@ section#counter-stats {
   color: var(--color-primary);
   margin: 0;
   padding: 0;
+  font-family: var(--font-paragraph);
 }
 
 .add_cart {
@@ -3056,11 +3062,11 @@ section#counter-stats {
 }
 
 .text_description p {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 500;
   color: var(--color-bg-white);
   word-spacing: .5px;
-  font-family: var(--font-body);
+  font-family: var(--font-paragraph);
 }
 
 .product_card_add {
@@ -3071,11 +3077,14 @@ section#counter-stats {
 }
 
 .product_card_add .add_part {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 10px;
-  border: 1px solid #000;
+      display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px;
+    border: 1px solid #000;
+    height: 27px;
+    overflow: hidden;
+    border-radius: 23px;
 }
 
 .product_card_add .add_part p {
@@ -3090,6 +3099,8 @@ section#counter-stats {
 
 .product_card_add .add_part i {
   padding: 10px 0;
+  margin: 0px 10px;
+  font-size: 13px;
 }
 
 .card_to_buy {
@@ -3397,9 +3408,7 @@ section#counter-stats {
   background-color: var(--color-lite-white);
 }
 
-
 /*  */
-
 
 .header__dropdown-items {
   display: none;
