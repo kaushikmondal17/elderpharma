@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" type="" href="responsive.css" />
     <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="script.js"/>
     <!-- facnicon -->
     <link rel="icon" type="image/png" href="images/fabicon2.png" />
 
@@ -30,9 +31,9 @@
 
 
 <div class="wp_icon">
- <a href="https://wa.me/91#" target="_blank">
-  <img src="images/WhatsApp.svg.webp" alt="Chat on WhatsApp" width="40">
-</a>
+    <a href="https://wa.me/91#" target="_blank">
+        <img src="images/WhatsApp.svg.webp" alt="Chat on WhatsApp" width="40">
+    </a>
 </div>
 
 <body>
@@ -100,9 +101,11 @@
                                         <li><a href="product.html" class="header__dropdown-link">Body Grow </a></li>
                                         <li><a href="product.html" class="header__dropdown-link">Breath Easy</a></li>
                                         <li><a href="product.html" class="header__dropdown-link">EL VIT 400</a></li>
-                                        <li><a href="product.html" class="header__dropdown-link">Eldervit-D3 60K</a></li>
+                                        <li><a href="product.html" class="header__dropdown-link">Eldervit-D3 60K</a>
+                                        </li>
                                         <li><a href="product.html" class="header__dropdown-link">Eldervit-SG</a></li>
-                                        <li><a href="product.html" class="header__dropdown-link">Eldervit-K27 SG</a></li>
+                                        <li><a href="product.html" class="header__dropdown-link">Eldervit-K27 SG</a>
+                                        </li>
                                         <li><a href="product.html" class="header__dropdown-link">Eldervit-Gold</a></li>
                                         <li><a href="product.html" class="header__dropdown-link">Eldervit-7G</a></li>
                                         <li><a href="product.html" class="header__dropdown-link">Eldervit-9G</a></li>
@@ -122,14 +125,18 @@
                                     <ul class="header__dropdown-items">
                                         <li><a href="product.html" class="header__dropdown-link">Amyclox LB</a></li>
                                         <li><a href="product.html" class="header__dropdown-link">Cpl-250</a></li>
-                                        <li><a href="product.html" class="header__dropdown-link">Lipider AV 20/75</a></li>
+                                        <li><a href="product.html" class="header__dropdown-link">Lipider AV 20/75</a>
+                                        </li>
                                         <li><a href="product.html" class="header__dropdown-link">Moxel 500</a></li>
                                         <li><a href="product.html" class="header__dropdown-link">Racedotil 100</a></li>
                                         <li><a href="product.html" class="header__dropdown-link">Omec D</a></li>
                                         <li><a href="product.html" class="header__dropdown-link">Elcefol-Z</a></li>
-                                        <li><a href="product.html" class="header__dropdown-link">Rosuder Gold-20</a></li>
-                                        <li><a href="product.html" class="header__dropdown-link">Rosuder Gold-10</a></li>
-                                        <li><a href="product.html" class="header__dropdown-link">Rosuder A 10/75</a></li>
+                                        <li><a href="product.html" class="header__dropdown-link">Rosuder Gold-20</a>
+                                        </li>
+                                        <li><a href="product.html" class="header__dropdown-link">Rosuder Gold-10</a>
+                                        </li>
+                                        <li><a href="product.html" class="header__dropdown-link">Rosuder A 10/75</a>
+                                        </li>
                                         <li><a href="category.html" class="header__dropdown-link_button">See All <i
                                                     class="fa-solid fa-arrow-right-long"></i> </a></li>
                                     </ul>
@@ -363,17 +370,32 @@
     <div class="product_card_page animate-on-scroll">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="product_left">
-                        <img src="images/dry.png" />
+                        <div class="main_product_images">
+                            <img id="main-image" class="big-image" src="./images/Fair Lady Moisturiser jar mockup.png" />
+                        </div>
+<div class="product_mid_text">
+    <h6>Related Images</h6>
+</div>
+                        <div class="images_tab_top_part">
+                            <img id="vairiant-images" class="small-images" src="./images/Fair Lady Moisturiser_OUTER 3D.png" data-large="ramon" />
+                            <img id="vairiant-images" class="small-images" src="./images/Fair Lady Soap.png"
+                                data-large="ramon" />
+                            <img id="vairiant-images" class="small-images" src="./images/Fair Lady Sunscreen.png"
+                                data-large="ramon" />
+                            <img id="vairiant-images" class="small-images" src="./images/Fair Lady Face Moisturiser.png"
+                                data-large="ramon" />
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="Product_right">
+                        <h2> Fair Lady Moisturiser</h2>
                         <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur mollitia aliquam
                             dolorem
                             quo quasi deleniti numquam vero vitae molestiae fuga.</h5>
-                        <h3><b>Price:</b>$145.00<del>$245.00</del></h3>
+                        <h3><b>Price:</b>Rs:145.00<del>Rs:245.00</del></h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae minus magnam perspiciatis
                             sed
                             corporis autem ipsa quisquam numquam ipsum adipisci quod et quam beatae, odio veniam quo
@@ -381,18 +403,26 @@
                             doloremque iure. Nostrum quo voluptas aspernatur vitae velit debitis, minima harum eligendi!
                         </p>
                         <div class="product_price_tag">
-                            <p>SKU:<span>1510</span></p>
-                            <p>SKU:<span>1510</span></p>
-                            <p>SKU:<span>1510</span></p>
+                            <p>Wet:<span>100gm</span></p>
+                            <p>SPF:<span>50+ UNa</span></p>
+                            <p>SPF:<span>50+ UNa</span></p>
                         </div>
+                         <label>Quantity: </label>
                         <div class="product_card_add">
-                            <div class="add_part">
-                                <i class="fa-solid fa-minus"></i>
-                                <p>1</p>
-                                <i class="fa-solid fa-plus"></i>
-                            </div>
+                                <div class="form-group">
+       
+        <div class="input-group">
+            <div class="input-group-btn">
+                <button id="down" class="btn btn-default" onclick=" down('0')"><span class="glyphicon glyphicon-minus"><i class="fa-solid fa-minus"></i></span></button>
+            </div>
+            <input type="text" id="myNumber" class="form-control input-number" value="1" />
+            <div class="input-group-btn">
+                <button id="up" class="btn btn-default" onclick="up('10')"><span class="glyphicon glyphicon-plus"></span><i class="fa-solid fa-plus"></i></button>
+            </div>
+        </div>
+    </div>
                             <div class="add_to_card_product">
-                                <button class="button_to_buy">
+                                <button class="button_to_buy_product">
                                     Add to Card
                                     <svg class="cartIcon" viewBox="0 0 576 512">
                                         <path
@@ -407,16 +437,19 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="card_to_buy">
+                        <div class="buy_card_payment_method">
+                            <p>We Are Accept</p>
+                            <div class="card_to_buy">
                             <img src="images/visa.png" />
                             <img src="images/Mastercard-PNG-Photos.png" />
+                        </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-12">
                 <div class="text_description">
-                    <h4>Shipping policy should be know</h4>
+                    <h4>Benefits of This Product:</h4>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae ducimus tempora enim aspernatur
                         nisi vitae dicta nemo facere necessitatibus, voluptatem, delectus nesciunt saepe. Facere officia
                         tempore omnis inventore adipisci illo? Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -436,18 +469,112 @@
                         Necessitatibus, quas accusantium illo tempore eligendi quibusdam, cumque, explicabo officia
                         possimus nobis dolores mollitia molestiae vitae ratione temporibus cum consequatur eum.
                     </p>
+
+
                 </div>
             </div>
         </div>
     </div>
 
-
     <!-- similer_card -->
-     <div class="similer_part">
-        <div class="containe">
-            <div class="row"></div>
+    <div class="similer_part">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="top_heading_part">
+                        <h2>Similar Products</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="anzen_card animate-on-scroll">
+                    <div class="cate_imges">
+                        <img class="product_one" src="images/ONET box.png"/>
+                        <img class="product_two" src="images/OZ OZ NF Sus bottle.png"/>
+                        <div class="icon_fav">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+                    <div class="project_text">
+                        <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, voluptatum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, inventore.</h4>
+                        <span class="review_part"><img src="images/g-review.png"/>(15)</span>
+                        <p>Lorem, ipsum. text  Lorem ipsum dolor sit.</p>
+                        <h5>RS : 548.00
+                            <span>(Inclusive Of all taxes)</span>
+                        </h5>
+                       <button><a href="product.html">Buy Now</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="anzen_card animate-on-scroll">
+                    <div class="cate_imges">
+                        <img class="product_one" src="images/CODEX AP.png"/>
+                        <img class="product_two" src="images/CODEX AP bottle.png"/>
+                        <div class="icon_fav">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+                    <div class="project_text">
+                        <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, voluptatum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, inventore.</h4>
+                        <span class="review_part"><img src="images/g-review.png"/>(15)</span>
+                        <p>Lorem, ipsum. text  Lorem ipsum dolor sit.</p>
+                        <h5>RS : 548.00
+                            <span>(Inclusive Of all taxes)</span>
+                        </h5>
+                       <button><a href="product.html">Buy Now</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="anzen_card animate-on-scroll">
+                    <div class="cate_imges">
+                        <img class="product_one" src="images/codex mint box.png"/>
+                        <img class="product_two" src="images/codex mint bottle.png"/>
+                        <div class="icon_fav">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+                    <div class="project_text">
+                        <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, voluptatum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, inventore.</h4>
+                        <span class="review_part"><img src="images/g-review.png"/>(15)</span>
+                        <p>Lorem, ipsum. text  Lorem ipsum dolor sit.</p>
+                        <h5>RS : 548.00
+                            <span>(Inclusive Of all taxes)</span>
+                        </h5>
+                       <button><a href="product.html">Buy Now</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="anzen_card animate-on-scroll">
+                    <div class="cate_imges">
+                        <img class="product_one" src="images/IMMRAFT 200ML BOX.png"/>
+                        <img class="product_two" src="images/IMMRAFT 200ML BOTTLE.png"/>
+                        <div class="icon_fav">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+                    <div class="project_text">
+                        <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, voluptatum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, inventore.</h4>
+                        <span class="review_part"><img src="images/g-review.png"/>(15)</span>
+                        <p>Lorem, ipsum. text  Lorem ipsum dolor sit.</p>
+                        <h5>RS : 548.00
+                            <span>(Inclusive Of all taxes)</span>
+                        </h5>
+                       <button><a href="product.html">Buy Now</a></button>
+                    </div>
+                </div>
+            </div>
+            </div>
         </div>
-     </div>
+    </div>
+
     <!-- testmonial_part_section -->
     <div class="tesimonial_section animate-on-scroll">
         <div class="container">
@@ -821,22 +948,61 @@
 
     <!-- menu_under_scriprt -->
 
-<script>
-  document.querySelectorAll('.header__dropdown-title').forEach(title => {
-    title.addEventListener('click', (e) => {
-      e.stopPropagation(); // prevent bubbling
-      const parent = title.closest('.header__dropdown-group');
-      parent.classList.toggle('active');
-    });
-  });
+    <script>
+        document.querySelectorAll('.header__dropdown-title').forEach(title => {
+            title.addEventListener('click', (e) => {
+                e.stopPropagation(); // prevent bubbling
+                const parent = title.closest('.header__dropdown-group');
+                parent.classList.toggle('active');
+            });
+        });
 
-  // Prevent menu item clicks from closing dropdown
-  document.querySelectorAll('.header__dropdown-items a').forEach(link => {
-    link.addEventListener('click', (e) => {
-      e.stopPropagation();
-    });
-  });
+        // Prevent menu item clicks from closing dropdown
+        document.querySelectorAll('.header__dropdown-items a').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.stopPropagation();
+            });
+        });
+    </script>
+
+    <!-- product js -->
+    <script>
+        const mainImage = document.getElementById("main-image");
+        const variantId = document.querySelectorAll("#vairiant-images");
+
+        function imageSwap(e) {
+            console.log(mainImage);
+            console.log(this.src);
+            console.log(this.getAttribute("data-large"));
+            mainImage.src = this.src;
+        }
+
+        for (var i = 0; i < variantId.length; i++) {
+            variantId[i].addEventListener("click", imageSwap, false);
+        }
+
+    </script>
+
+<!-- add_buttton_part -->
+
+<script>
+    function up(max) {
+	document.getElementById("myNumber").value =
+		parseInt(document.getElementById("myNumber").value) + 1;
+	if (document.getElementById("myNumber").value >= parseInt(max)) {
+		document.getElementById("myNumber").value = max;
+	}
+}
+function down(min) {
+	document.getElementById("myNumber").value =
+		parseInt(document.getElementById("myNumber").value) - 1;
+	if (document.getElementById("myNumber").value <= parseInt(min)) {
+		document.getElementById("myNumber").value = min;
+	}
+}
+
 </script>
 
 </body>
+
 </html>
