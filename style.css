@@ -239,7 +239,7 @@ a {
 }
 
 .header__dropdown-group {
-    margin-bottom: 1.5rem;
+    /* margin-bottom: 1.5rem; */
     padding: 28px;
     height: fit-content;
     border-radius: 20px;
@@ -395,7 +395,7 @@ span.text-base.font-medium::after {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    gap: 2rem;
+    gap: 1rem;
   }
 }
 
@@ -792,6 +792,10 @@ swiper-button-next {
   margin: 50px 0;
   font-family: var(--font-jose);
   /* font-family: var(--font-paragraph); */
+}
+.banner h1 i{
+  color: var(--color-white);
+  font-size: 60px;
 }
 
 .banner h1 span {
@@ -2633,10 +2637,62 @@ section#counter-stats {
   font-weight: 400;
 }
 
+.our_mission_part{
+  padding: 60px;
+  background-color: var(--color-background);
+}
+.our_mission_part .mission_box{
+    padding: 32px 32px;
+    border-radius: 15px;
+    overflow: hidden;
+    background: var(--color-white);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    height: 222px;
+    text-align: center;
+}
+.our_mission_part .mission_box i{
+  font-size: 40px;
+  color: var(--color-lite);
+}
+.our_mission_part .mission_box h3{
+  font-size: 26px;
+  font-weight: 500;
+  margin: 10px auto;
+  color: var(--color-lite);
+  font-family: var(--font-odd);
+  margin: 10px auto;
+}
+.our_mission_part .mission_box p{
+  font-family: var(--font-paragraph);
+  font-size: 15px;
+  color: var(--color-bg-white);
+}
+.our_mission_part .teaxt_about{
+  margin: 40px 0;
+    margin-bottom: 0;
+}
+.our_mission_part .teaxt_about h4{
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--color-lite);
+  font-family: var(--font-odd);
+  margin: 20px auto;
+}
+.our_mission_part .teaxt_about p{
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--color-dark);
+  opacity: .9;
+  font-family: var(--font-paragraph);
+  margin: 10px auto;
+
+}
+
 .Features {
   background-color: var(--color-lite-white);
   padding: 50px 0;
 }
+
 
 .box_about {
   padding: 30px 20px;
@@ -3422,8 +3478,12 @@ box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px
 
 .cate_imges {
   position: relative;
-  height: 300px;
-  width: 100%;
+  height: 250px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
   overflow: hidden;
 }
 
