@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit:wght@100..900&display=swap');
+
 html {
   scroll-behavior: smooth;
   transition: all;
@@ -37,6 +47,8 @@ button {
   --font-heading: "Playfair Display", serif;
   --font-body: "Roboto", sans-serif;
   --font-paragraph: "Jost", sans-serif;
+  --font-mont: "Montserrat Alternates", sans-serif;
+  --font-jose: "Josefin Sans", sans-serif;
   --font-odd: "Outfit";
   --color-dark: #222;
   --color-black: #000;
@@ -161,7 +173,13 @@ a {
   display: none;
   background-color: var(--color-white);
 }
-
+.header__dropdown-column_division{
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    gap: 50px;
+    margin-left: 50px;
+}
 .mobile_part {
   display: none;
 }
@@ -221,9 +239,12 @@ a {
 }
 
 .header__dropdown-group {
-  margin-bottom: 1.5rem;
-  padding: 0 5px;
-  height: fit-content;
+    margin-bottom: 1.5rem;
+    padding: 28px;
+    height: fit-content;
+    border-radius: 20px;
+    background-color: var(--color-lite-white);
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 .header__dropdown-title {
@@ -253,8 +274,8 @@ a {
 }
 
 span.text-base.font-medium {
-  font-family: var(--font-odd);
-  font-weight: 600;
+  font-family: var(--font-paragraph);
+  font-weight: 500;
   position: relative;
   margin-bottom: 5px;
 }
@@ -263,7 +284,7 @@ span.text-base.font-medium::after {
   position: absolute;
   background-color: var(--color-main);
   width: auto;
-  height: 2px;
+  height: 1px;
   left: 0;
   right: 0;
   bottom: 1px;
@@ -290,6 +311,8 @@ span.text-base.font-medium::after {
 }
 .division_img {
   width: 150px;
+  height: 150px;
+  object-fit: contain;
 }
 
 /* BURGER */
@@ -363,7 +386,7 @@ span.text-base.font-medium::after {
     left: 0;
     width: 100%;
     box-shadow: 0 20px 40px rgba(0, 0, 0, .15);
-    padding: 3rem 0;
+    padding: 1rem 0;
   }
 
   .header__dropdown-column {
@@ -379,13 +402,14 @@ span.text-base.font-medium::after {
 header .header__brand {
   width: 80px;
   object-fit: cover;
+  overflow: hidden;
 }
 
-
 .top_heading_part h2 {
-  font-size: 35px;
+  font-size: 32px;
   font-weight: 500;
   color: var(--color-main);
+  font-family: var(--font-paragraph);
   margin-left: 40px;
   padding-bottom: 0;
   margin-bottom: 0;
@@ -423,7 +447,7 @@ header .header__brand {
   align-items: center;
   gap: 10px;
   letter-spacing: .2px;
-  margin-right: 20px;
+  /* margin-right: 20px; */
   border: 2px solid var(--color-main);
   font-family: var(--font-odd);
   font-size: 14px;
@@ -439,6 +463,10 @@ header .header__brand {
 .top_heading_part button:hover {
   background-color: var(--color-main);
   color: var(--color-white);
+  transition-duration: .3s;
+}
+.top_heading_part button:hover a{
+  color: var(--color-white) !important;
   transition-duration: .3s;
 }
 
@@ -759,10 +787,11 @@ swiper-button-next {
 
 .banner h1 {
   font-size: 50px;
-  font-weight: 600;
+  font-weight: 500;
   width: 59%;
   margin: 50px 0;
-  font-family: var(--font-heading);
+  font-family: var(--font-jose);
+  /* font-family: var(--font-paragraph); */
 }
 
 .banner h1 span {
@@ -771,7 +800,7 @@ swiper-button-next {
 
 .text_part p {
   font-size: 18px;
-  font-family: var(--font-heading);
+  font-family: var(--font-jose);
 }
 
 .text_part p span {
@@ -794,11 +823,12 @@ swiper-button-next {
   background-color: var(--color-main);
   padding: 8px 35px;
   font-size: 17px;
-  font-weight: 500;
+  font-weight: 400;
   border-radius: 50px;
   border: 3px solid var(--color-white);
   border-radius: 50px;
   color: var(--color-white);
+  font-family: var(--font-jose);
 }
 
 .banner_button a {
@@ -810,11 +840,12 @@ swiper-button-next {
   color: var(--color-main);
   padding: 8px 35px;
   font-size: 17px;
-  font-weight: 500;
+  font-weight: 400;
   border-radius: 50px;
   border: 3px solid var(--color-main);
   border-radius: 50px;
   background-color: var(--color-white);
+   font-family: var(--font-jose);
 }
 
 /* about */
@@ -2573,7 +2604,7 @@ section#counter-stats {
 
 .inner_banner img {
   width: 100%;
-  height: 100%;
+  height: 450px;
   object-fit: cover;
 }
 
@@ -3271,7 +3302,7 @@ box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px
 
 /* category section */
 .category_part {
-  padding: 60px 0;
+  padding: 80px 0;
 
 }
 
@@ -3386,6 +3417,7 @@ box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px
   overflow: hidden;
   box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
   background-color: var(--color-white);
+  margin: 10px auto;
 }
 
 .cate_imges {
@@ -3468,7 +3500,7 @@ box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px
   color: var(--color-dark);
   margin: 10px auto;
   margin-top: 0px !important;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 2;
   overflow: hidden;
   display: -webkit-box;
   -webkit-box-orient: vertical;
