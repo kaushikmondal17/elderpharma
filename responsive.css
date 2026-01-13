@@ -1512,10 +1512,15 @@
     }
 
     .text_part p {
-        font-size: 18px;
-        font-family: var(--font-heading);
+        font-size: 20px;
+      font-family: var(--font-mont);
+      font-weight: 500;
     }
-
+.text_part p span{
+    font-family: var(--font-paragraph);
+    margin: 0 2px;
+    font-size: 30px;
+}
     .navbar-brand .logo_img {
         width: 80px;
     }
@@ -1527,28 +1532,36 @@
     }
 
     .banner h1 {
-        font-size: 17px;
+       font-size: 26px;
         margin: 5px 0;
-        font-weight: 300;
+        font-weight: 500;
         font-family: var(--font-odd);
+        width: 90%;
+        color: var(--color-white);
+        word-spacing: .5px;
     }
 
     .banner_button {
-        margin: 20px 0;
+        margin: 0 auto;
+        margin-top: 34px;
+        gap: 10px;
     }
 
     .banner h1 span {
-        font-size: 24px;
-        font-family: var(--font-heading);
+        font-size: 28px;
+        font-family: var(--font-mont);
+        font-weight: 700;
     }
 
     .text_part {
-        bottom: 48px;
+        bottom: 50px;
+        left: 47px;
     }
 
     .banner swiper-slide img {
-        width: 100%;
-        height: 300px;
+      width: 100%;
+        height: 380px;
+        object-fit: cover;
     }
 
     .swiper-button-next svg,
@@ -1556,14 +1569,16 @@
         display: none !important;
     }
 
-    .enquery {
-        padding: 4px 14px;
-        font-size: 12px;
+        .enquery {
+        padding: 8px 26px;
+        font-size: 15px;
+        font-weight: 400;
     }
 
     .order {
-        padding: 4px 25px;
-        font-size: 12px;
+        padding: 8px 26px;
+        font-size: 15px;
+        font-weight: 400;
     }
 
     .about_left_part h5 {
@@ -1615,7 +1630,6 @@
         font-size: 12px;
         padding: 2px 15px;
     }
-
     .button_to_buy {
         margin: 6px 0;
         padding: 6px 15px;
@@ -2020,6 +2034,40 @@
     .our_mission_part {
         padding: 32px 0px;
     }
+.header__dropdown-column_division {
+    gap: 15px;
+    margin-left: 7px;
+}
+.division_img {
+    width: 100px;
+    height: 100px;
+}
+.header__dropdown-inner p{
+ font-size: 13px;
+ width: 100%;
+}
+.header__dropdown-block{
+    width: 150px;
+}
+.banner h1 i {
+    font-size: 20px !important;
+}
+.banner h1 i:nth-child(1) {
+  margin-left: -24px;
+        position: absolute;
+        top: 40px;
+}
+.product_card_ui img{
+    object-fit: contain;
+}
+.product_images {
+        height: 140px;
+        padding: 10px;
+    }
+
+
+
+
 
 
 
