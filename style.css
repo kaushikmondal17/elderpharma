@@ -1480,6 +1480,7 @@ section#counter-stats {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  margin-top: 25px;
 }
 
 .product_card_ui img {
