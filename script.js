@@ -67,7 +67,6 @@
         const menu = document.getElementById("menu");
         const dropdowns = document.querySelectorAll(".header__dropdown");
 
-
         burger.addEventListener("click", () => {
             burger.classList.toggle("is-active");
             menu.classList.toggle("is-active");
@@ -152,4 +151,7 @@ function down(min) {
 		document.getElementById("myNumber").value = min;
 	}
 }
+
+ 
+
 
