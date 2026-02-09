@@ -1491,13 +1491,9 @@
     }
 
 
-
-
-
-
-
-
-
+.product_mid_text {
+    margin-bottom: 10px;
+}
 
 
 
@@ -2122,7 +2118,9 @@
         line-height: normal;
     }
 
-
+.product_mid_text {
+    margin-bottom: 16px;
+}
 
 
 
